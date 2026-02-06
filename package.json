@@ -7,23 +7,23 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "pages:build": "npx @cloudflare/next-on-pages@1"
+    "pages:build": "npx @opennextjs/cloudflare@latest"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",
     "@dnd-kit/utilities": "^3.2.2",
+    "@opennextjs/cloudflare": "^1.16.3",
     "@vercel/analytics": "^1.6.1",
     "hls.js": "^1.6.15",
     "lucide-react": "^0.563.0",
     "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "zustand": "^5.0.11",
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.0.0",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
     "@tailwindcss/postcss": "^0.0.0-insiders.2404242",
     "@types/node": "^25",
     "@types/react": "^19",
